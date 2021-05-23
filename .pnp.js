@@ -54,7 +54,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["anser", "npm:2.0.1"],
             ["css.escape", "npm:1.5.1"],
             ["event-source-polyfill", "npm:1.0.24"],
-            ["framer-motion", "virtual:67da9ce45856a22cbff2700ee1b01fc49c7e2d160af30b61b788d762e9b3154b0099867601a32b99fb2cdb9fe5516d7e8825253886a01d58e1149683a944630a#npm:4.1.17"],
             ["gatsby", "virtual:67da9ce45856a22cbff2700ee1b01fc49c7e2d160af30b61b788d762e9b3154b0099867601a32b99fb2cdb9fe5516d7e8825253886a01d58e1149683a944630a#npm:3.5.1"],
             ["gatsby-legacy-polyfills", "npm:1.5.0"],
             ["gatsby-link", "virtual:67da9ce45856a22cbff2700ee1b01fc49c7e2d160af30b61b788d762e9b3154b0099867601a32b99fb2cdb9fe5516d7e8825253886a01d58e1149683a944630a#npm:3.5.0"],
@@ -2778,14 +2777,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@emotion/is-prop-valid", [
-        ["npm:0.8.8", {
-          "packageLocation": "./.yarn/cache/@emotion-is-prop-valid-npm-0.8.8-261a0f2426-4a6993c4e6.zip/node_modules/@emotion/is-prop-valid/",
-          "packageDependencies": [
-            ["@emotion/is-prop-valid", "npm:0.8.8"],
-            ["@emotion/memoize", "npm:0.7.4"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:1.1.0", {
           "packageLocation": "./.yarn/cache/@emotion-is-prop-valid-npm-1.1.0-858a9fb5eb-3fd451e55f.zip/node_modules/@emotion/is-prop-valid/",
           "packageDependencies": [
@@ -2796,13 +2787,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@emotion/memoize", [
-        ["npm:0.7.4", {
-          "packageLocation": "./.yarn/cache/@emotion-memoize-npm-0.7.4-5648cf11b8-874123a94c.zip/node_modules/@emotion/memoize/",
-          "packageDependencies": [
-            ["@emotion/memoize", "npm:0.7.4"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:0.7.5", {
           "packageLocation": "./.yarn/cache/@emotion-memoize-npm-0.7.5-e5e7e9eeca-09f5290283.zip/node_modules/@emotion/memoize/",
           "packageDependencies": [
@@ -11244,48 +11228,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["framer-motion", [
-        ["npm:4.1.17", {
-          "packageLocation": "./.yarn/cache/framer-motion-npm-4.1.17-00d2b9950f-4baaa9ef6c.zip/node_modules/framer-motion/",
-          "packageDependencies": [
-            ["framer-motion", "npm:4.1.17"]
-          ],
-          "linkType": "SOFT",
-        }],
-        ["virtual:67da9ce45856a22cbff2700ee1b01fc49c7e2d160af30b61b788d762e9b3154b0099867601a32b99fb2cdb9fe5516d7e8825253886a01d58e1149683a944630a#npm:4.1.17", {
-          "packageLocation": "./.yarn/$$virtual/framer-motion-virtual-ca45518d8b/0/cache/framer-motion-npm-4.1.17-00d2b9950f-4baaa9ef6c.zip/node_modules/framer-motion/",
-          "packageDependencies": [
-            ["framer-motion", "virtual:67da9ce45856a22cbff2700ee1b01fc49c7e2d160af30b61b788d762e9b3154b0099867601a32b99fb2cdb9fe5516d7e8825253886a01d58e1149683a944630a#npm:4.1.17"],
-            ["@emotion/is-prop-valid", "npm:0.8.8"],
-            ["@types/react", "npm:17.0.6"],
-            ["@types/react-dom", null],
-            ["framesync", "npm:5.3.0"],
-            ["hey-listen", "npm:1.0.8"],
-            ["popmotion", "npm:9.3.6"],
-            ["react", "npm:17.0.2"],
-            ["react-dom", "virtual:67da9ce45856a22cbff2700ee1b01fc49c7e2d160af30b61b788d762e9b3154b0099867601a32b99fb2cdb9fe5516d7e8825253886a01d58e1149683a944630a#npm:17.0.2"],
-            ["style-value-types", "npm:4.1.4"],
-            ["tslib", "npm:2.2.0"]
-          ],
-          "packagePeers": [
-            "@types/react-dom",
-            "@types/react",
-            "react-dom",
-            "react"
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["framesync", [
-        ["npm:5.3.0", {
-          "packageLocation": "./.yarn/cache/framesync-npm-5.3.0-6dde4726f5-14a6ed7d2a.zip/node_modules/framesync/",
-          "packageDependencies": [
-            ["framesync", "npm:5.3.0"],
-            ["tslib", "npm:2.2.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["fresh", [
         ["npm:0.5.2", {
           "packageLocation": "./.yarn/cache/fresh-npm-0.5.2-ad2bb4c0a2-2f76c8505d.zip/node_modules/fresh/",
@@ -13291,15 +13233,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/hex-color-regex-npm-1.1.0-35ec780c11-89899f5f74.zip/node_modules/hex-color-regex/",
           "packageDependencies": [
             ["hex-color-regex", "npm:1.1.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["hey-listen", [
-        ["npm:1.0.8", {
-          "packageLocation": "./.yarn/cache/hey-listen-npm-1.0.8-adb7dae9da-b9a3ed8d48.zip/node_modules/hey-listen/",
-          "packageDependencies": [
-            ["hey-listen", "npm:1.0.8"]
           ],
           "linkType": "HARD",
         }]
@@ -18296,19 +18229,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["popmotion", [
-        ["npm:9.3.6", {
-          "packageLocation": "./.yarn/cache/popmotion-npm-9.3.6-7554353804-b2ff30e647.zip/node_modules/popmotion/",
-          "packageDependencies": [
-            ["popmotion", "npm:9.3.6"],
-            ["framesync", "npm:5.3.0"],
-            ["hey-listen", "npm:1.0.8"],
-            ["style-value-types", "npm:4.1.4"],
-            ["tslib", "npm:2.2.0"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["portfinder", [
         ["npm:1.0.28", {
           "packageLocation": "./.yarn/cache/portfinder-npm-1.0.28-12c37407ab-906dc51482.zip/node_modules/portfinder/",
@@ -20745,7 +20665,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["anser", "npm:2.0.1"],
             ["css.escape", "npm:1.5.1"],
             ["event-source-polyfill", "npm:1.0.24"],
-            ["framer-motion", "virtual:67da9ce45856a22cbff2700ee1b01fc49c7e2d160af30b61b788d762e9b3154b0099867601a32b99fb2cdb9fe5516d7e8825253886a01d58e1149683a944630a#npm:4.1.17"],
             ["gatsby", "virtual:67da9ce45856a22cbff2700ee1b01fc49c7e2d160af30b61b788d762e9b3154b0099867601a32b99fb2cdb9fe5516d7e8825253886a01d58e1149683a944630a#npm:3.5.1"],
             ["gatsby-legacy-polyfills", "npm:1.5.0"],
             ["gatsby-link", "virtual:67da9ce45856a22cbff2700ee1b01fc49c7e2d160af30b61b788d762e9b3154b0099867601a32b99fb2cdb9fe5516d7e8825253886a01d58e1149683a944630a#npm:3.5.0"],
@@ -22143,17 +22062,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["style-to-object", "npm:0.3.0"],
             ["inline-style-parser", "npm:0.1.1"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["style-value-types", [
-        ["npm:4.1.4", {
-          "packageLocation": "./.yarn/cache/style-value-types-npm-4.1.4-a70d22eaab-aca49c70e6.zip/node_modules/style-value-types/",
-          "packageDependencies": [
-            ["style-value-types", "npm:4.1.4"],
-            ["hey-listen", "npm:1.0.8"],
-            ["tslib", "npm:2.2.0"]
           ],
           "linkType": "HARD",
         }]

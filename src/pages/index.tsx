@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import styled, { x, th, useColor } from '@xstyled/emotion'
-import { motion } from 'framer-motion'
 import tinycolor from 'tinycolor2'
 
 interface QueryResults {
@@ -65,7 +64,7 @@ const Container = styled.div`
   }
 `
 
-const LargeHeading = styled(motion.h1)`
+const LargeHeading = styled.h1`
   font-size: 9xl;
   line-height: 1;
   font-weight: bold;
