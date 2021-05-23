@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Sam Wight'
+    title: 'Sam Wight',
+    heading: 'Sam Wight',
+    tagline:
+      'Senior software engineer at The Nine specializing in JS/TS, Rust, and Elixir. Computer science student at The University of Alabama. Writes about software, design, politics, and systems.'
   },
   plugins: [
     'gatsby-plugin-gatsby-cloud',
@@ -36,7 +39,7 @@ module.exports = {
       },
       __key: 'pages'
     },
-    'gatsby-plugin-theme-ui',
+    'gatsby-plugin-emotion',
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
