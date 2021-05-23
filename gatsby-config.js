@@ -1,37 +1,49 @@
 module.exports = {
   siteMetadata: {
-    title: "Sam Wight",
+    title: 'Sam Wight'
   },
   plugins: [
-    "gatsby-plugin-postcss",
-    "gatsby-plugin-gatsby-cloud",
-    "gatsby-plugin-image",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
+    'gatsby-plugin-gatsby-cloud',
+    'gatsby-plugin-image',
+    'gatsby-plugin-react-helmet',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        icon: "src/images/icon.png",
-      },
-    },
-    "gatsby-plugin-mdx",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: "./src/images/",
-      },
-      __key: "images",
+        icon: 'src/images/icon.png'
+      }
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-plugin-mdx',
       options: {
-        name: "pages",
-        path: "./src/pages/",
-      },
-      __key: "pages",
+        extensions: ['.mdx', '.md']
+      }
     },
-  ],
-};
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: './src/images/'
+      },
+      __key: 'images'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'pages',
+        path: './data/'
+      },
+      __key: 'pages'
+    },
+    'gatsby-plugin-theme-ui',
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        typekit: {
+          id: 'ybt4qkt'
+        }
+      }
+    }
+  ]
+}
