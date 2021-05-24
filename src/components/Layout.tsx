@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql, Link, useStaticQuery } from 'gatsby'
 import styled, { x } from '@xstyled/emotion'
 import { makeUnderline } from './Underline'
+import SEO, { SEOProps } from './Seo'
 
 export const Container = styled.div`
   max-width: 3xl;
@@ -94,6 +95,7 @@ export const HomeLayout: React.FC = props => {
 
   return (
     <Container>
+      <SEO />
       <x.header my={32}>
         <LargeHeading>{title}</LargeHeading>
         <Tagline>{tagline}</Tagline>
@@ -125,15 +127,16 @@ const NavLink = styled(
   font-weight: bold;
 `
 
-export const MainLayout: React.FC = props => {
+export const MainLayout: React.FC<SEOProps> = ({ children, ...props }) => {
   return (
     <Container>
+      <SEO {...props} />
       <x.header mb={6}>
         <x.nav w='full' py={4}>
           <NavLink to='/'>Sam Wight</NavLink>
         </x.nav>
       </x.header>
-      <x.main py={10}>{props.children}</x.main>
+      <x.main py={10}>{children}</x.main>
     </Container>
   )
 }

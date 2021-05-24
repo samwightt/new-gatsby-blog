@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: 'Sam Wight',
+    description:
+      'Senior software engineer at The Nine. CS student at The University of Alabama. Writes about programming, design, politics, and systems.',
+    url: 'https://samw.dev',
+    twitterUsername: '@samwightt',
     heading: 'Sam Wight',
     tagline:
       'Senior software engineer at The Nine specializing in JS/TS, Rust, and Elixir. Computer science student at The University of Alabama. Writes about software, design, politics, and systems.'

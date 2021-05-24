@@ -9,6 +9,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        description
       }
       body
     }
@@ -20,6 +21,7 @@ interface QueryResults {
     frontmatter: {
       title: string
       date: string
+      description?: string
     }
     body: string
   }
@@ -27,12 +29,12 @@ interface QueryResults {
 
 export default function Post ({ data }: { data: QueryResults }) {
   const {
-    frontmatter: { title, date },
+    frontmatter: { title, date, description },
     body
   } = data.mdx
 
   return (
-    <MainLayout>
+    <MainLayout title={title} article={true} description={description}>
       <H1>{title}</H1>
       <P mt={4} fontSize='xl' ml={2} aria-label='Publish date'>
         {date}

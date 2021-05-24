@@ -1,6 +1,7 @@
 ---
 title: A month of meditation
 slug: a-month-of-meditation
+description: I started meditating a month ago and the results have been transformative. Here's everything I learned.
 published: true
 date: 2021-04-10
 ---

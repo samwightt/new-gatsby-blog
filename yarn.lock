@@ -2538,6 +2538,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@reach/router@npm:^1.3.4":
+  version: 1.3.4
+  resolution: "@reach/router@npm:1.3.4"
+  dependencies:
+    create-react-context: 0.3.0
+    invariant: ^2.2.3
+    prop-types: ^15.6.1
+    react-lifecycles-compat: ^3.0.4
+  peerDependencies:
+    react: 15.x || 16.x || 16.4.0-alpha.0911da3
+    react-dom: 15.x || 16.x || 16.4.0-alpha.0911da3
+  checksum: 7fedb32b5f589d0de236f83af7a0098bef93327925ac3dc090026ce79f6571005207d872fb01378ef00dfcd6e9ed0f0583755c5817ae9d85f3fd6d5b34b84417
+  languageName: node
+  linkType: hard
+
 "@sideway/address@npm:^4.1.0":
   version: 4.1.2
   resolution: "@sideway/address@npm:4.1.2"
@@ -2997,6 +3012,15 @@ __metadata:
   dependencies:
     "@types/react": "*"
   checksum: a17679f85c6f39a94cacbac62fff7b976adadd660ee9a8e2c5ab58036520869d4875b2707f7dd097f9eb14756b2041462d3615dfbb1efa61b37327f377866c61
+  languageName: node
+  linkType: hard
+
+"@types/react-helmet@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "@types/react-helmet@npm:6.1.1"
+  dependencies:
+    "@types/react": "*"
+  checksum: da14d9b180a3a9c046f49873786bb59887d3b9de8b250b8978cf18df0e41469e3914d02c2e77946ac909ce090c5909b3ff84d00076e47366d07e650b9e0be795
   languageName: node
   linkType: hard
 
@@ -5887,6 +5911,19 @@ __metadata:
   bin:
     create-gatsby: cli.js
   checksum: 47928ea755e8c6698e920e8401c03e6add1a6d6045e68277562f83a9c67a8ce105fe84d9025c59cc7ef92b083bcc5a7be7ee293052c4568f8b5288d70e4e46ab
+  languageName: node
+  linkType: hard
+
+"create-react-context@npm:0.3.0":
+  version: 0.3.0
+  resolution: "create-react-context@npm:0.3.0"
+  dependencies:
+    gud: ^1.0.0
+    warning: ^4.0.3
+  peerDependencies:
+    prop-types: ^15.0.0
+    react: ^0.14.0 || ^15.0.0 || ^16.0.0
+  checksum: dfb153bbcfe44fb0b5d74e097f41fef382c9ea513084f604fea1759aea6683da0eef13b02ede2f0672c4eeacdd8efce0023935ca02909fcb2ae8be28b9aa63f5
   languageName: node
   linkType: hard
 
@@ -9696,6 +9733,13 @@ fsevents@~2.3.1:
     section-matter: ^1.0.0
     strip-bom-string: ^1.0.0
   checksum: 78f1f3432c01b05035d02c3e259b9f73c794c88651692f4d12c489a9d1a386f6587c1319e9eb788e53d6cd47d6b8ec5b2d14df7cce25b973f68bb9934ccbaf4d
+  languageName: node
+  linkType: hard
+
+"gud@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "gud@npm:1.0.0"
+  checksum: 08be6bf30eb713b0e115a4676418b3805b739703956fd861710f59ce355c047102954e4d79172b180912d06794e8d94f702e9367ac6843c2fae40c8c726a4907
   languageName: node
   linkType: hard
 
@@ -16240,9 +16284,12 @@ resolve@^2.0.0-next.3:
     "@mdx-js/mdx": ^1.6.22
     "@mdx-js/react": ^1.6.22
     "@mikaelkristiansson/domready": ^1.0.11
+    "@reach/router": ^1.3.4
     "@types/animejs": ^3.1.3
     "@types/mdx-js__react": ^1.5.3
+    "@types/reach__router": ^1.3.7
     "@types/react": ^17.0.6
+    "@types/react-helmet": ^6.1.1
     "@types/tinycolor2": ^1.4.2
     "@xstyled/emotion": ^2.5.0
     "@xstyled/util": ^2.2.3
@@ -18961,6 +19008,15 @@ typescript@^4.2.4:
     unist-util-stringify-position: ^2.0.0
     vfile-message: ^2.0.0
   checksum: ee33bee7fb29cae493c3263c4298a28319ab6383ad2f017c036e7213911c6ca6e25d38e6347e59ab8fd0470b123b5522d1d2f6872e418c2e08fd3216fb160e39
+  languageName: node
+  linkType: hard
+
+"warning@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "warning@npm:4.0.3"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: 20ef5d29ff9c20af3060e504914a00d5a90ce346e75e6691efbedb540481cdc82070c966d75195f812de64bb0bd7f1b02315fcb52469db151c0f15e29002781c
   languageName: node
   linkType: hard
 
