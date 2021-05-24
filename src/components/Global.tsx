@@ -1,5 +1,6 @@
 import React from 'react'
 import { defaultTheme, ThemeProvider, Preflight, Theme } from '@xstyled/emotion'
+import { MdxWrapper } from './Mdx'
 
 const theme: Theme = {
   ...defaultTheme,
@@ -11,10 +12,12 @@ const theme: Theme = {
 
 const GlobalWrapper: React.FC = props => {
   return (
-    <ThemeProvider theme={theme}>
-      <Preflight />
-      {props.children}
-    </ThemeProvider>
+    <MdxWrapper>
+      <ThemeProvider theme={theme}>
+        <Preflight />
+        {props.children}
+      </ThemeProvider>
+    </MdxWrapper>
   )
 }
 
