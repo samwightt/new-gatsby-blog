@@ -4,13 +4,14 @@ slug: task-activation-energy
 description: I struggle to start even the most basic tasks. I've developed something called 'task activation energy' that makes things easier.
 published: true
 date: 2021-06-27
+header_image: ../images/task-activation-energy-header.jpg
 ---
 
 I have a hard time mustering the effort to take a shower. There’s this enormous buildup before I get in to rinse off where my brain is screaming at me, “No! I don’t want to do that!” But once I get under the water and relax, it’s all fine. I actually enjoy it. I don’t look forward to showers, but once I get over the hill of starting them, I’m good.
 
-In chemistry, there is a term called ‘activation energy’ Activation energy is the minimum amount of energy required to start a chemical reaction. There’s a big chunk of energy that needs to be supplied to get a reaction going. Once it’s started though, the reaction continues like toppling dominoes. Reactions can be hard to start, but they’re not hard to keep going.
+In chemistry there's a term called ‘activation energy’ that describes the energy needed to start a chemical reaction. There’s a big chunk of energy that needs to be supplied to get a reaction going. Once it’s started though, the reaction continues like toppling dominoes. Think about like a fire: they can be tricky to start, but they’re not hard to keep going.
 
-I’ve realized while coping with my ADHD that activation energy is a concept that nearly every ADHD person understands, even if they can’t describe it. I'm fairly sure that every ADHD person has had the experience of planning an entire day out, making lists of all of the minutiae of what they want to do and in what order they want to get it done. Then when that day comes… nothing happens. Instead of following through on their todo list, they get overwhelmed and just ignore it all.
+I’ve realized while coping with my ADHD that activation energy is a concept that nearly every ADHD person understands, even if they can’t describe it. I'm fairly sure that every ADHD person has had the experience of planning an entire day out, making lists of all of the minutiae of what needs to be done and in what order. Then the day comes… and nothing happens. Instead of following through on their todo list, they get overwhelmed and just ignore it all.
 
 I think this is an issue with the effort it takes to start something. We're able to plan things out in advance fairly easily, writing down _everything_ that needs to be done and putting it in a nice, pretty system. But, when it actually comes down to _doing the shit we planned to do_, the energy it takes to start moving is just too high. The effort required to begin the list is higher than the amount of effort we feel we can exert at the time, so we don't move. This is an underestimation of what I call **task activation energy**. I define this as "the minimum amount of energy required to begin doing a task".
 
